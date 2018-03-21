@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TodoCommand\ToDoList.App.Command.csproj" />
+    <ProjectReference Include="..\TodoList.CrossCutting.Factory\ToDoList.CrossCutting.Factory.csproj" />
+    <ProjectReference Include="..\TodoList\ToDoList.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
